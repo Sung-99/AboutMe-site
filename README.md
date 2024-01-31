@@ -63,7 +63,7 @@
 
 ##  Autor
 
-##### Contribuidores nome<br>
+##### Nome do contribuidor <br>
 Vitor Hugo Mota Soares 
 
 
