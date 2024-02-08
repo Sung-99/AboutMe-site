@@ -19,6 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+![HTML][HTML-shield]
 ![Projeto][Projeto-shield]
 ![Dedicação][Dedicação-shield]
 ![Fóco][Fóco-shield]
@@ -37,9 +38,12 @@
 
 ####  Linguagens usadas e Softwares
 
--Javascript<br>
+-Javascript
+
 -Html
+
 -Gitbash
+
 -VsCode
 
 ####  Sistema operacional
@@ -77,7 +81,7 @@ Vitor Hugo Mota Soares
 
 
 
-
+[HTML-shield]:https://img.shields.io/badge/HTML--orange?style=for-the-badge&logo=gitlab&logoColor=orange&labelColor=blue&color=orang
 [Fóco-shield]: https://img.shields.io/badge/F%C3%B3co--silver?style=for-the-badge&logoColor=white&labelColor=orange
 [Dedicação-shield]:https://img.shields.io/badge/Dedica%C3%A7%C3%A3o--red?style=for-the-badge&logoColor=white&labelColor=Navy%20blue
 [Projeto-shield]: https://img.shields.io/badge/Projeto--red?style=for-the-badge&logoColor=white&labelColor=silver
