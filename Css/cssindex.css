@@ -1,8 +1,8 @@
 body{
     margin: 0px;
-    background: rgb(64,75,166);
-    background: linear-gradient(90deg, rgba(64,75,166,1) 25%, rgba(24,35,103,1) 94%, rgba(118,133,186,1) 100%);
-}
+    background-color:black;
+    /*background: linear-gradient(90deg, rgba(64,75,166,1) 25%, rgba(24,35,103,1) 94%, rgba(118,133,186,1) 100%);
+*/}
 
 /*Container para toda a pagina*/
 #all_scope{
@@ -16,9 +16,9 @@ body{
     overflow: hidden;
     top: 0;
     left: 0;
-    position: relative;
+   
     height:150px;
-    width: 700px;
+    width: 300px;
     text-align: center;
   
 }
@@ -33,7 +33,7 @@ body{
 }
 /* Imagem estilo do logo*/
 #logo-img{
-    height: 80px;
+    height: 60px;
     border: 5px;
     padding: 5px;
   
@@ -43,7 +43,7 @@ body{
 /*Just to make clear my parents and encapsulated objects//apenas uma div exterior aos elementos internos*/
 .my-name-outer-div p{
     color: rgb(247, 247, 247);
-    font-size: 50px;
+    font-size: 35px;
     padding: 1px;
     margin: 1px;
     font-weight: lighter;
@@ -53,15 +53,14 @@ body{
 }
 /*just sidebar/ aside é uma tag que auxilia na barra lateral*/
 aside{
-    left: 720px;
+
     color: #fff;
     width: 270px;
     margin: 5px;
     padding: 5px;
-    height: 230px;
-    top: -200px;
-    border-radius: 80px;
-    position: relative;
+ 
+    border-radius: 25%;
+    
 }
 
 /*logo aside wpp// logozinho do whatsap na minha aside pra barra lateral*/
@@ -304,13 +303,89 @@ aside p{
 
 .foot{
     color: #fff;
-    display: block;
+    top: 515px;
     height: 100px;
     margin: 0px;
-    background: rgb(64,75,166);
-    background: linear-gradient(90deg, rgba(64,75,166,1) 25%, rgba(24,35,103,1) 94%, rgba(118,133,186,1) 100%);
+  
+    position: relative;
     text-align: center;
 }
+
+
+/*-----------------------------------------*/
+
+/*
+
+ ***Use as example: https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
+ 
+
+*/
+
+
+.outer_slider_in{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+}
+
+
+.me-img img{
+    width: 250px;
+   
+    height:250px;
+}
+
+
+
+#toggle{
+    display: block;
+}
+
+#slider {
+    
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius:25%;
+    background: linear-gradient(90deg, rgb(28, 29, 31) 25%, rgba(24,35,103,1) 94%, rgb(17, 17, 19) 100%);
+    
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    
+}
+
+.slide-in {
+    animation: slide-in 1.2s forwards;
+    -webkit-animation: slide-in 1.2s forwards;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+    
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+
+
+/*-----------------------------------------*/
+
 
 /*Responsiveness less than @500*/
 
