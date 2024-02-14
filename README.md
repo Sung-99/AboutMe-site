@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
+![JS][js-shield]
 ![HTML][HTML-shield]
 ![Projeto][Projeto-shield]
 ![Dedicação][Dedicação-shield]
@@ -80,7 +80,7 @@ Vitor Hugo Mota Soares
 
 
 
-
+[js-shield]:https://img.shields.io/badge/Javascript--Blue?style=for-the-badge&logo=Javascript&logoColor=white&label=Javascript&labelColor=dark%20purple
 [HTML-shield]:https://img.shields.io/badge/HTML--orange?style=for-the-badge&logo=gitlab&logoColor=orange&labelColor=blue&color=orang
 [Fóco-shield]: https://img.shields.io/badge/F%C3%B3co--silver?style=for-the-badge&logoColor=white&labelColor=orange
 [Dedicação-shield]:https://img.shields.io/badge/Dedica%C3%A7%C3%A3o--red?style=for-the-badge&logoColor=white&labelColor=Navy%20blue
