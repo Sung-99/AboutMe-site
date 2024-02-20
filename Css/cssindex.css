@@ -1,8 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     background-color:black;
-    /*background: linear-gradient(90deg, rgba(64,75,166,1) 25%, rgba(24,35,103,1) 94%, rgba(118,133,186,1) 100%);
-*/}
+    
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+}
+
 
 /*Container para toda a pagina*/
 #all_scope{
@@ -10,6 +20,9 @@ body{
     height: 100%;
     display: block;
 }
+
+
+
 
 /*Barra inicial de navegação*/
 #top-bar{
@@ -24,13 +37,7 @@ body{
 }
 
 
-/*Div container do logo*/
-.logo-inf-outer-div{
-    display: inline-block;
-    position: relative;
-    height: 100px;
-    
-}
+
 /* Imagem estilo do logo*/
 #logo-img{
     height: 60px;
@@ -38,20 +45,44 @@ body{
     padding: 5px;
   
 }
-
-
-/*Just to make clear my parents and encapsulated objects//apenas uma div exterior aos elementos internos*/
-.my-name-outer-div p{
-    color: rgb(247, 247, 247);
-    font-size: 35px;
-    padding: 1px;
-    margin: 1px;
-    font-weight: lighter;
-    font-variant: small-caps;
-    display: inline-block;
-    
+/*Header to hold some contents*/
+.header{
+    width:100%;
+    height: 100px;  
+    position: absolute;
 }
-/*just sidebar/ aside é uma tag que auxilia na barra lateral*/
+
+
+
+/*links header pointer*/
+.Experience_my, .About_my {
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+    color: white;
+    width: 190px;
+    top: 20px;
+    height: 35px;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-variant: small-caps slashed-zero;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+
+.Experience_my:hover ,.About_my:hover{
+    color: blue;
+    border-radius: 20px;
+    transition: ease-in-out 0.1s;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
+/*Aside content*/
 aside{
 
     color: #fff;
@@ -63,16 +94,18 @@ aside{
     
 }
 
-/*logo aside wpp// logozinho do whatsap na minha aside pra barra lateral*/
-#logo-wpp{
-    height: 30px;
-    border: 5px;
-    padding: 5px;
+/*Aside content p*/
+.my-name-outer-div p{
+    color: rgb(247, 247, 247);
+    font-size: 35px;
+    padding: 1px;
+    margin: 1px;
+    font-weight: lighter;
+    font-variant: small-caps;
     display: inline-block;
-    position: relative;
-    top: 12px;
+    cursor: default;
 }
-/*just paragraph styles///estilizando meu paragravo no aside*/
+
 aside p{
     color: rgb(247, 247, 247);
     font-size: 15px;
@@ -82,7 +115,16 @@ aside p{
     display: inline-block;
 }
 
-/*stylizing my logo//estilizando o logo do email*/
+#logo-wpp{
+    height: 30px;
+    border: 5px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+}
+
+
 #logo-email{
     height: 30px;
     border: 5px;
@@ -92,7 +134,7 @@ aside p{
     top: 12px;
 }
 
-/*stylizing my logo//estilizando o logo do linkedin*/
+
 #logo-linkdln{
     height: 30px;
     border: 5px;
@@ -102,249 +144,17 @@ aside p{
     top: 12px;
 }
 
-/*paragraph style// la em cima no aside p era pra estilizar, mas nao funcionou, entao forcei por aqui*/
 #linkdin-inf{
     text-decoration: none;
     color: rgb(247, 247, 247);
 }
 
-/*outer cont    ainer to include all inner divs//container exterior das divs*/
-.About-me-why-im-aplly-expectations-outer-content{
-    display:block;
-    height: 100px;
-    margin-top: 10px;
-    padding-top: 10px;
-    width: 700px;
-}
-
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.about-me-content-out{
-    display: inline-block;
-    width: 160px;
-    height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 30px;
-    margin-left: 15px;
-    margin-right: 10px;
-   
-}
-
-/*new outer div to when the btn were pressed // o container que vai aparecer quando qualquer um dos butoes forem pressionados para servir como novo background*/
-.window_popup{
-  
-    
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 300px;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-}
-
-/*My "X" ICON to close // apenas meu estilizado X icone */
-.closeaboutme, .close-why-apply, .close-expectin{
-    position: relative;
-    color: #fffefe;
-    float: right;
-    font-size: 50px;
-    font-weight: bold;
-    top: -20px;
-    left: -50px;
-}
-
-/*When hover over my "x" icon an style will be applied // apenas estilizar quando passar com o mouse por cima*/
-.closeaboutme:hover,
-.closeaboutme:focus , .close-why-apply:hover, .close-why-apply:focus,
-.close-expectin:hover, .close-expectin:focus{
-  color: #ff0000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.about_me_popup, .why-im-applypopup, .expectin-popup{
-    background-image: radial-gradient(circle, rgb(15, 14, 14), rgba(63, 62, 62, 0), rgb(19, 15, 15));
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 15px;
-    width: 80%;
-}
-    
-.about_me_popup p, .why-im-applypopup p, .expectin-popup p{
-    color: white;
-    font-style:oblique;
-    font-size: 20px;
-    text-align: left;
-    font-family: Verdana, sans-serif;
-}
-
-/*btn inside my container about me//simples butao para minha informação*/
-.about-me-btnclass{
-
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: hsl(217, 45%, 65%);
-    cursor: pointer;
-    text-align: center;
-    color: #fff;
-       
-}
-
-/*hover the mouse on will change the color//quando focar o mouse a cor muda*/
-.about-me-content-out :hover{
-    background-color:hsl(218, 67%, 80%);
-    border-radius: 10px;
-    box-sizing: border-box;
-    
-}
-/*-------------------------*/
-
-
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.why-im-apply-content-out{
-    display: inline-block;
-    width: 210px;
-    height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-   
-}
-
-
-/*btn inside my container about me//simples butao para o porque estar candidatando*/
-.why-im-btnclass{
-
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: hsl(217, 45%, 65%);
-    cursor: pointer;
-    text-align: center;
-    color: #fff;
-       
-}
-
-/*just a hover// o mesmo que no "hover about me"*/
-.why-im-apply-content-out :hover{
-    background-color:hsl(218, 67%, 80%);
-    border-radius: 10px;
-    box-sizing: border-box;
-    
-}
-
-/*-------------------------*/
-
-
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.expectations-content-out{
-    display: inline-block;
-    width: 120px;
-    height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 30px;
-    margin-left: 30px;
-    margin-right: 80px;
-   
-}
-
-
-/*simple btn */
-.expectbtnclass{
-
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    background-color: hsl(217, 45%, 65%);
-    cursor: pointer;
-    text-align: center;
-    color: #fff;
-       
-}
-
-/*just a hover// o mesmo que no "hover about me"*/
-.expectations-content-out :hover{
-    background-color:hsl(218, 67%, 80%);
-    border-radius: 10px;
-    box-sizing: border-box;
-    
-}
-
-/*---------Here some classes to toggle when a btn were pressed//classes que vou usar para quando os butoes forem apertados---------*/
-
-
-/*why-im-apply-content-out class will be changed to whyImApplyContentNoneClass*/
-.whyImApplyContentNoneClass{
-    display: none;
-}
-
-/*expectations-content-out class will be changed to expectations-content-outNoneClass*/
-.expectations-content-outNoneClass{
-    display: none;
-}
-
-
-.foot{
-    color: #fff;
-    top: 515px;
-    height: 100px;
-    margin: 0px;
-  
-    position: relative;
-    text-align: center;
-}
-
-
-/*-----------------------------------------*/
-
-/*
-
- ***Use as example: https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
- 
-
-*/
-
-
-.outer_slider_in{
-    position: absolute;
-    width: 300px;
-    height: 100%;
-}
-
-
-.me-img img{
-    width: 250px;
-   
-    height:250px;
-}
-
-
-
-#toggle{
-    display: block;
-}
+/*Slide at left side*/
 
 #slider {
     
-    position: absolute;
-    width: 300px;
+    position: relative;
+    width: 350px;
     height: 100%;
     border-top-right-radius: 25%;
     border-bottom-right-radius:25%;
@@ -383,143 +193,85 @@ aside p{
     100% { -webkit-transform: translateX(-100%); }
 }
 
+/*
 
-/*-----------------------------------------*/
+ ***Use as example: https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
+ 
 
+*/
 
-/*Responsiveness less than @500*/
-
-@media screen and (max-width: 500px) {
-    #top-bar{
-        overflow: hidden;
-        top: 0;
-        left: 0;
-        position: relative;
-        height:150px;
-        width: 100%;
-        text-align: center;
-    }
-
-    /*Div container do logo*/
-.logo-inf-outer-div{
-    display: inline-block;
+.outer_slider_in{
     position: relative;
-    height: 100px;
-    
-}
-/* Imagem estilo do logo*/
-#logo-img{
-    height: 100px;
-    border: 5px;
-    padding: 5px;
-  
+    width: 300px;
+    height: 100%;
 }
 
 
-/*Just to make clear my parents and encapsulated objects//apenas uma div exterior aos elementos internos*/
-.my-name-outer-div p{
-    color: rgb(247, 247, 247);
-    font-size: 30px;
-    padding: 1px;
-    margin: 1px;
+.me-img img{
+    width: 250px;
+   
+    height:250px;
+}
+
+
+
+
+
+
+/*about me div*/
+
+.container_detailed, .container_detalide_text{
+    display: flex;
+    border-bottom: solid;
+    border-color: #fffefe;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container_aboutme{
+    display: flex;
+    gap: 3rem;
+}
+
+
+.Logoaboutme{
+    position: relative;
+    height: 20px;
+    top: 8px;
+   
+}
+
+
+
+
+
+
+.foot p{
+    margin: 0px;
     font-weight: lighter;
     font-variant: small-caps;
-    display: inline-block;
+    width: 100%;
+    margin: 0px;
     
+    cursor: default;
 }
-
-/*outer cont    ainer to include all inner divs//container exterior das divs*/
-.About-me-why-im-aplly-expectations-outer-content{
-    display:block;
-    height: 500px;
-    margin-top: 10px;
-    padding-top: 10px;
-    width:100%;
-}
-
-
-/*just sidebar/ aside é uma tag que auxilia na barra lateral*/
-aside{
-    text-align: center;
+.foot{
+    width: 100%;
     color: #fff;
-    width:100%;
-    margin: 5px;
-    padding: 5px;
-    height: 230px;
-    left: 0px;
-    border-radius: 80px;
-    position: relative;
-}
-
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.about-me-content-out{
-    display: inline-block;
-    width: 100%;
     height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 1px;
-    
-   
-   
-}
-
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.why-im-apply-content-out{
-    display: inline-block;
-    width:100%;
-    height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 1px;
-    
-  
-   
+    margin: 0px;
+    position: absolute;
+    text-align: center;
 }
 
 
-/*inner div where my btn will be placed// apenas a div onde vou colocar meu btn */
-.expectations-content-out{
-    display: inline-block;
-    width:100%;
-    height: 50px;
-    border-radius: 20px;
-    border: 3px;
-    background-color: hsl(217, 45%, 65%);
-    box-sizing: border-box;
-    margin: 1px;
-   
-   
-   
-}
-#all_scope{
-    width: 100%;
-    height: 100%;
+
+
+
+
+
+
+#toggle{
     display: block;
 }
 
-/*My "X" ICON to close // apenas meu estilizado X icone */
-.closeaboutme, .close-why-apply, .close-expectin{
-    position: relative;
-    color: #fffefe;
-    float: right;
-    font-size: 50px;
-    font-weight: bold;
-    top: -17px;
-    left: -20px;
-}
 
-/*When hover over my "x" icon an style will be applied // apenas estilizar quando passar com o mouse por cima*/
-.closeaboutme:hover,
-.closeaboutme:focus , .close-why-apply:hover, .close-why-apply:focus,
-.close-expectin:hover, .close-expectin:focus{
-  color: #ff0000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-}
