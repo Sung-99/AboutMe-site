@@ -8,11 +8,36 @@ body{
     
 }
 
+h4{
+    margin: 5px;
+    width: 170px;
+}
 .title{
     color: #fff;
     text-align: center;
+    
 }
-
+.titledev{
+    color: #fff;
+    text-align: center;
+    height: 40px;
+}
+.titleTI{
+    color: #fff;
+    text-align: center;
+    width: 90px;
+    left: 30px;
+    position:relative;
+    
+}
+.inner_title{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    width: 170px;
+    margin: 7px;
+    gap: 10px;
+}
 
 /*Container para toda a pagina*/
 #all_scope{
@@ -219,9 +244,27 @@ aside p{
 
 
 /*about me div*/
+.container_detalide_text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    border-bottom: solid;
+    border-color: #fffefe;
+    padding: 10px;
+    border-radius: 15px;
 
+}
+
+.trr{
+    height: 1px;
+    width: 100%;
+    border-bottom: solid;
+    border-color:white ;
+}
 .container_detailed, .container_detalide_text{
     display: flex;
+    flex-wrap: wrap;
+    width: 200px;
     border-bottom: solid;
     border-color: #fffefe;
     padding: 10px;
@@ -229,10 +272,15 @@ aside p{
 }
 .container_aboutme{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 
-
+.Logoaboutmescrew{
+    position: relative;
+    height: 20px;
+    top: 1px;
+    left: 79px;
+}
 .Logoaboutme{
     position: relative;
     height: 20px;
