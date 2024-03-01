@@ -8,13 +8,21 @@ body{
     
 }
 
-h4{
+.text-h4{
+    height: 30px;
     margin: 5px;
     width: 170px;
+    color: white;
+    top: 10px;
+    position: relative;
+    left: 30px;
 }
 .title{
     color: #fff;
     text-align: center;
+    margin: 15px;
+    top: 10px;
+    position: relative;
     
 }
 .titledev{
@@ -22,13 +30,15 @@ h4{
     text-align: center;
     height: 40px;
 }
-.titleTI{
+.titleTI, .Ingles{
     color: #fff;
     text-align: center;
-    width: 90px;
+    width: 100px;
     left: 30px;
     position:relative;
-    
+    margin: 1px;
+    height: 30px;
+    top: 15px;    
 }
 .inner_title{
     color: #fff;
@@ -36,7 +46,8 @@ h4{
     font-size: 15px;
     width: 170px;
     margin: 7px;
-    gap: 10px;
+    position: relative;
+    top: 5px;
 }
 
 /*Container para toda a pagina*/
@@ -267,19 +278,24 @@ aside p{
     width: 200px;
     border-bottom: solid;
     border-color: #fffefe;
-    padding: 10px;
+  
+
     border-radius: 15px;
 }
 .container_aboutme{
     display: flex;
-    gap: 2rem;
+    gap: 18rem;
+    padding: 10px;
 }
 
-.Logoaboutmescrew{
+.Logoaboutmescrew, .Logoaboutmedictionary{
     position: relative;
     height: 20px;
     top: 1px;
     left: 79px;
+}
+.Logoaboutmedictionary{
+    top: 10px;
 }
 .Logoaboutme{
     position: relative;
