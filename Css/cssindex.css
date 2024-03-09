@@ -7,7 +7,14 @@ body{
     background-color:black;
     
 }
-
+p{
+    color: white;
+}
+h4{
+    color: white;
+    text-align: center;
+    margin: 2px;
+}
 .Detailed-dev-sub{
     height: 30px;
     margin: 5px;
@@ -69,6 +76,7 @@ body{
 }
 .second-title-office{
     top: 1px; 
+    width: 120px;
 }
 .inner_title{
     color: #fff;
@@ -314,24 +322,38 @@ aside p{
 
 .container_aboutme{
     display: flex;
-    gap: 10rem;
+    gap: 9rem;
     padding: 10px;
 }
-
+.bottom-aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.signs-afir{
+    width: 250px;
+   height: 200px;
+}
 .Logoaboutmescrew, .Logoaboutmedictionary, .Logoaboutpackt, .Logocurses {
     position: relative;
     height: 20px;
     top: 1px;
     left: 79px;
 }
+.About_me_text{
+    width: 250px;
+    text-align: justify;
+
+}
 .Logoaboutmescrew{
     top: -14px;
 }
 .Logoaboutpackt{
     top: -14px;
+    left: 60px;
 }
 .Logocurses{
-    left: 5px;
+    left: 10px;
     height: 20px;
 }
 .Logoaboutele{
@@ -350,6 +372,16 @@ aside p{
    
 }
 
+.Logosignsafir, .Logosigncode, .Logosignbug, .Logosignalgorithm{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+.Logosigncode, .Logosignbug{
+    margin-top: 50px;
+}
 
 
 
