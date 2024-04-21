@@ -148,7 +148,7 @@ h4{
 
 /*Aside content*/
 aside{
-
+    position: absolute;
     color: #fff;
     width: 270px;
     margin: 5px;
@@ -227,6 +227,7 @@ aside p{
     border-bottom-right-radius:25%;
     border-bottom-left-radius:25%;
     left: 50px;
+    top: 50px;
 }
 
 
@@ -366,7 +367,8 @@ aside p{
     display: flex;
     flex-wrap: wrap;
   
-    
+    align-content: space-around;
+    justify-content: space-around;
 }
 .hello_prog{
     font-size: 120px;
@@ -374,9 +376,9 @@ aside p{
     color: blue;
     position: relative;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     margin: 0px;
@@ -385,11 +387,11 @@ aside p{
 
 
 @keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
+    0%   {left: 0px; top:0px;}
+    25%  {left:-200px; top:0px;}
+    50%  {left: 200px; top:0px;}
+    75%  {left:-200px; top:0px;}
+    100% {left: 200px; top:0px;} 
 }
 
 
