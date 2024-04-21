@@ -144,8 +144,8 @@
  }, 1000);
   
 
-
- /*------------------Slide in js--------------*/
+ /*could me used in something later
+ /*------------------Slide in js--------------
 
  let slider = document.getElementById('slider');
 
@@ -154,10 +154,11 @@
 
  ***Use as example: https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition
  
- */
+ 
 
 
  
+
  slider.addEventListener('mouseleave', function() {
      
      if(slider.classList.contains('slide-in')){
@@ -169,7 +170,7 @@
 
  
 
- /*---------------------Click again to show personal info btn */
+ /*---------------------Click again to show personal info btn 
  outerSliderPlaceHolder.addEventListener('mouseenter',function(){
   if(slider.classList.contains('slide-out') && 
   (outerSliderPlaceHolder.classList.contains('outer_slider_in')))
@@ -177,4 +178,7 @@
     slider.setAttribute('class','slide-in');
   
    }
+
+   
  });
+ /*------------------*/
