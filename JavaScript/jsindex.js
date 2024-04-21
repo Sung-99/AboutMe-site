@@ -134,12 +134,12 @@
  mas como só o segundo muda a cada segundo(obviamente), só ele será */
 
 
- let day = ['Segunda','Terça','Quarta','Quinta','Sexta','Sabado','Domingo'];
+ let day = ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sabado'];
 
  setInterval(function (){
   let date = new Date();
   let x = date.getDay()
-  document.getElementById('clockDisplay').textContent = day[x-1] + ' ' + date.getHours() +':'+('0'+ date.getMinutes()).slice(-2) +':'+ ('0' + date.getSeconds()).slice(-2);
+  document.getElementById('clockDisplay').textContent = day[x]+ ' ' + date.getHours() +':'+('0'+ date.getMinutes()).slice(-2) +':'+ ('0' + date.getSeconds()).slice(-2);
 
  }, 1000);
   
