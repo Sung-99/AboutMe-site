@@ -365,9 +365,31 @@ aside p{
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+  
+    
 }
 .hello_prog{
     font-size: 120px;
+    height: 120px;
+    color: blue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0px;
+
+}
+
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
 }
 
 
