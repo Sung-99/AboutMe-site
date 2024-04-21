@@ -328,7 +328,7 @@ aside p{
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 5rem;
 }
 .signs-afir{
     width: 250px;
