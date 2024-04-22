@@ -159,15 +159,26 @@ aside{
 }
 
 /*Aside content p*/
-.my-name-outer-div p{
+.sub-p{
+    font-size: 20px;
+    text-decoration:underline;
+    margin: 15px;
+    font-style: italic;
+}
+.my-name-outer-div{
+    text-align: center;
+}
+.My-nam{
     color: rgb(247, 247, 247);
     font-size: 35px;
     padding: 1px;
     margin: 1px;
+    right: 30px;
     font-weight: lighter;
     font-variant: small-caps;
     display: inline-block;
     cursor: default;
+    position: relative;
 }
 
 aside p{
@@ -370,6 +381,8 @@ aside p{
     align-content: space-around;
     justify-content: space-around;
 }
+
+
 .hello_prog{
     font-size: 120px;
     height: 120px;
@@ -382,6 +395,8 @@ aside p{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     margin: 0px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
