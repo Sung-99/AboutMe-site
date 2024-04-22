@@ -284,11 +284,15 @@ aside p{
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 7rem;
 }
-.signs-afir{
+.bottom-Qualifivations p{
+    font-size: 15px;
+}
+.signs-afir, .bottom-Qualifivations{
     width: 250px;
    height: 200px;
+   
 }
 .Logoaboutmescrew, .Logoaboutmedictionary, .Logoaboutpackt, .Logocurses {
     position: relative;
