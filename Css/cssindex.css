@@ -4,7 +4,7 @@ html{
 
 body{
     margin: 0px;
-    background-color:black;
+    background-image: url("../Images/gradient_1.jpg");
     
 }
 p{
@@ -104,7 +104,8 @@ h4{
 
 /* Imagem estilo do logo*/
 #logo-img{
-    height: 60px;
+    position: absolute;
+    height: 100px;
     border: 5px;
     padding: 5px;
   
@@ -114,6 +115,21 @@ h4{
     width:100%;
     height: 100px;  
     position: relative;
+}
+
+.logo-inf-outer-div-mini{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 500PX;
+    height: 100px;
+
+}
+.logo-inf-outer-div-mini p{
+    position: relative;
+    margin: 1px;
+    top:80px;
+
 }
 
 
@@ -160,15 +176,18 @@ aside{
 .sub-p{
     font-size: 20px;
     text-decoration:underline;
-    margin: 15px;
+    margin: 5px;
     font-style: italic;
+    padding: 5px;
 }
 .my-name-outer-div{
     text-align: center;
+    top: 100px;
+    position: relative;
 }
 .My-nam{
     color: rgb(247, 247, 247);
-    font-size: 35px;
+    font-size: 70px;
     padding: 1px;
     margin: 1px;
     right: 30px;
@@ -227,16 +246,10 @@ aside p{
 
 .slider_in{
    
-    background: linear-gradient( rgb(28, 29, 31) 25%, rgba(24,35,103,1) 94%, rgb(17, 17, 19) 100%);
     position: relative;
-    width: 300px;
-    height:100px;
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
-    border-bottom-right-radius:25%;
-    border-bottom-left-radius:25%;
-    left: 50px;
-    top: 50px;
+    width: 100%;
+    height:500px;
+ 
 }
 
 
@@ -401,9 +414,36 @@ aside p{
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-  
+    text-align: center;
+    width: 100%;
     align-content: space-around;
     justify-content: space-around;
+}
+
+.CV-content{
+    display: flex;
+    justify-content: space-around;
+  
+    top: 180px;
+    position: relative;
+}
+.CV-content h1{
+ 
+    margin: 1px;
+  
+    color: white;
+    cursor: pointer;
+}
+.CV-content button{
+    text-decoration: none;
+  background: none;
+    border: 0px;
+    width: 20px;
+
+
+}
+.CV-content button :hover{
+    color: blue;
 }
 
 
