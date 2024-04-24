@@ -153,6 +153,7 @@ aside{
     width: 270px;
     border-radius: 25%;
     
+    
 }
 
 /*Aside content p*/
@@ -290,7 +291,7 @@ aside p{
 .signs-afir{
     width: 250px;
     height: 200px;
-    display: flex;
+    
 }
 .bottom-Qualifivations{
     width: 250px;
