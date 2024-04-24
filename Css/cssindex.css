@@ -151,9 +151,6 @@ aside{
     position: absolute;
     color: #fff;
     width: 270px;
-    margin: 5px;
-    padding: 5px;
- 
     border-radius: 25%;
     
 }
@@ -284,12 +281,18 @@ aside p{
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
-    gap: 7rem;
+    gap: 2rem;
+    position: absolute;
 }
 .bottom-Qualifivations p{
     font-size: 15px;
 }
-.signs-afir, .bottom-Qualifivations{
+.signs-afir{
+    width: 250px;
+    height: 200px;
+    display: flex;
+}
+.bottom-Qualifivations{
     width: 250px;
    height: 200px;
    
@@ -332,12 +335,27 @@ aside p{
    
 }
 
-.Logosignsafir, .Logosigncode, .Logosignbug, .Logosignalgorithm{
+.Logosignsafir{
     width: 50px;
     height: 50px;
-    margin-left: 50px;
-    margin-top: 10px;
+    top: 20px;
+    left: 10px;
+    position: relative;
     
+}
+.Logosignsafirbottom1{
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left: 290px;
+    position: absolute;
+}
+.Logosignsafirbottom2{
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left: 655px;
+    position: absolute;
 }
 .Logosigncode, .Logosignbug{
     margin-top: 50px;
@@ -361,7 +379,8 @@ aside p{
     color: #fff;
     height: 50px;
     margin: 0px;
-    position: absolute;
+    top: 200px;
+    position: relative;
     text-align: center;
 }
 
