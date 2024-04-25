@@ -4,8 +4,7 @@ html{
 
 body{
     margin: 0px;
-    background-image: url("../Images/gradient_1.jpg");
-    
+    background-image: url("../Images/gradient_1.jpg");  
 }
 p{
     color: white;
@@ -408,16 +407,20 @@ aside p{
 .CV-content{
     display: flex;
     justify-content: space-around;
-  
+   
+    border: #fff;
+    
     top: 180px;
     position: relative;
 }
 .CV-content h1{
- 
+    font-size: 50px;
     margin: 1px;
-  
+    border-radius: 50%;
+    border:solid;
     color: white;
     cursor: pointer;
+    width: 100px;
 }
 .CV-content button{
     text-decoration: none;
