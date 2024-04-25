@@ -117,21 +117,6 @@ h4{
     position: relative;
 }
 
-.logo-inf-outer-div-mini{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    width: 500PX;
-    height: 100px;
-
-}
-.logo-inf-outer-div-mini p{
-    position: relative;
-    margin: 1px;
-    top:80px;
-
-}
-
 
 
 /*links header pointer*/
