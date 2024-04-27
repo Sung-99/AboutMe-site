@@ -23,13 +23,15 @@ h4{
     position: relative;
 
 }
-.titleaboutme{
+/*Titles sections*/
+.titleaboutme, .titleExperience{
     color: #fff;
     text-align: center;
     margin: 15px;
     top: 10px;
     position: relative;
 }
+
 .firs-title, .third-title{
     color: #fff;
     margin: 15px;
@@ -67,6 +69,7 @@ h4{
     height: 30px;
     top: 15px;    
 }
+/*---------------------------*/
 .Ingles-content{
     top: 9px;    
 }
@@ -477,4 +480,20 @@ aside p{
     100% {left: 200px; top:0px;} 
 }
 
+/*bottom content end aboutme*/
+.calendar{
+    height:500px;
+    border: solid 1px white;
+    color: white;
+}
+
+.gap1{
+    margin-top: 200px;
+}
+
+
+.contrib-column{
+    display: none;
+}
+/*--------------*/
 
