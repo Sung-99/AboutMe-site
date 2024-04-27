@@ -282,7 +282,21 @@ aside p{
     gap: 2rem;
     position: absolute;
 }
-.bottom-Qualifivations p{
+/*projects section */
+.bottom-Qualifivations a{
+    display: inline-block;
+  
+}
+.Projec1{
+    text-decoration: none;
+    width:194px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.Projec2{
+    text-decoration: none;
+    width:250px;
+    cursor: pointer;
     font-size: 13px;
 }
 .signs-afir{
@@ -291,10 +305,12 @@ aside p{
     
 }
 .bottom-Qualifivations{
-    width: 250px;
+    width: 255px;
    height: 200px;
    
 }
+
+/*--- */
 .Logoaboutmescrew, .Logoaboutmedictionary, .Logoaboutpackt, .Logocurses {
     position: relative;
     height: 20px;
