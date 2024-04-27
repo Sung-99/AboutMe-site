@@ -482,17 +482,137 @@ aside p{
 
 /*bottom content end aboutme*/
 .calendar{
-    height:500px;
+    height:140px;
     border: solid 1px white;
     color: white;
 }
 
 .gap1{
-    margin-top: 200px;
+    margin-top: 165px;
+    
+}
+.GitHubStatus{
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    top: -5px;
+    position: relative;
+
+}
+:root {
+    --color-calendar-graph-day-bg: #dddbdb;
+    --color-calendar-graph-day-L1-bg: #39dd34;
+    --color-calendar-graph-day-L2-bg: #45a045;
+    --color-calendar-graph-day-L3-bg: #047526;
+    --color-calendar-graph-day-L4-bg: #0a4208;
+  }
+  .ContributionCalendar-day[data-level='0'] {
+    background-color: var(--color-calendar-graph-day-bg);
+}
+
+.ContributionCalendar-day[data-level='1'] {
+    background-color: var(--color-calendar-graph-day-L1-bg);
+}
+
+.ContributionCalendar-day[data-level='2'] {
+    background-color: var(--color-calendar-graph-day-L2-bg);
+}
+
+.ContributionCalendar-day[data-level='3'] {
+    background-color: var(--color-calendar-graph-day-L3-bg);
+}
+
+.ContributionCalendar-day[data-level='4'] {
+    background-color: var(--color-calendar-graph-day-L4-bg);
+}
+
+table.ContributionCalendar-grid {
+    margin-bottom: 0pt;
+}
+
+table.ContributionCalendar-grid td {
+    padding: 4pt;
+}
+
+table.ContributionCalendar-grid td span.sr-only {
+    display: none;
+}
+
+td.ContributionCalendar-label span[aria-hidden='true'] {
+    font-size: 8pt;
+    left: -1pt;
+}
+
+tool-tip {
+    display: none;
+}
+
+.calendar .width-full > .float-left {
+    display: none;
+}
+
+.calendar {
+    width: 100%;
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
-.contrib-column{
+div.float-right {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    
+}
+
+div.float-right div {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+div.float-right span.sr-only {
+    display: none;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    height: 126px;
+    text-align: center;
+}
+
+
+
+.table-column {
+    display: none
+}
+
+.contrib-number {
+    display:none;
+}
+
+
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+#user-activity-overview{
+    display:none;
+}
+
+
+.day-tooltip.is-visible {
+    display: none;
+}
+
+caption.sr-only {
     display: none;
 }
 /*--------------*/
