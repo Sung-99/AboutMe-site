@@ -483,8 +483,9 @@ aside p{
 /*bottom content end aboutme*/
 .calendar{
     height:140px;
-    border: solid 1px white;
+
     color: white;
+    background-color: black;
 }
 
 .gap1{
