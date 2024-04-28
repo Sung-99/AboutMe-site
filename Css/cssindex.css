@@ -432,6 +432,9 @@ aside p{
     top: 180px;
     position: relative;
 }
+.CV-content a{
+    text-decoration: none;
+}
 .CV-content h1{
     font-size: 50px;
     margin: 1px;
@@ -618,3 +621,8 @@ caption.sr-only {
 }
 /*--------------*/
 
+/*-------experience css field---------*/
+.experience_mycls{
+    height: 500px;
+}
+/*--------------*/
