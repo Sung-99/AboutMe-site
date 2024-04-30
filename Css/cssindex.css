@@ -622,7 +622,24 @@ caption.sr-only {
 /*--------------*/
 
 /*-------experience css field---------*/
-.experience_mycls{
-    height: 500px;
+.sub-title-Experience{
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    top: 10px;
+    position: relative;
+    text-decoration: underline;
+}
+.experiences-inner{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+.first-one-experience{
+    width: 100px;
+    height: 100px;
+    border: solid 4px;
+    border-radius: 100%;
+    border-color:white ;
 }
 /*--------------*/
