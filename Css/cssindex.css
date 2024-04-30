@@ -634,12 +634,51 @@ caption.sr-only {
     display: flex;
     width: 100%;
     background-color: black;
+    justify-content: space-evenly;
+}
+.experiences-inner p{
+    padding: 5px;
+    font-weight: bolder;
+    font-variant: small-caps slashed-zero;
 }
 .first-one-experience{
     width: 100px;
     height: 100px;
     border: solid 4px;
-    border-radius: 100%;
+    border-radius: 10%;
     border-color:white ;
+    background-color: rgba(0, 0, 255, 0.24);
+}
+.second-one-experience{
+    width: 100px;
+    height: 100px;
+    border: solid 4px;
+    border-radius: 10%;
+    border-color:white ;
+    background-color: rgb(136, 16, 16);
+}
+.third-one-experience{
+    width: 100px;
+    height: 100px;
+    border: solid 4px;
+    border-radius: 10%;
+    border-color:white ;
+    background-color: rgb(23, 110, 20);
+}
+.forth-one-experience{
+    width: 100px;
+    height: 100px;
+    border: solid 4px;
+    border-radius: 10%;
+    border-color:white ;
+    background-color: rgb(102, 23, 98);
+}
+.fifth-one-experience{
+    width: 100px;
+    height: 100px;
+    border: solid 4px;
+    border-radius: 10%;
+    border-color:white ;
+    background-color: rgb(70, 109, 19);
 }
 /*--------------*/
