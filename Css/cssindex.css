@@ -637,12 +637,24 @@ caption.sr-only {
     justify-content: space-evenly;
 }
 .experiences-inner p{
-    padding: 5px;
-    font-weight: bolder;
+    padding:3px;
+    font-weight:lighter;
     font-variant: small-caps slashed-zero;
 }
+.inner-firstone-title, .inner-secondtone-title{
+    margin: 1px;
+    font-size: 20px;
+}
+.inner-firstone-body, .inner-secondtone-body{
+    margin: 1px;
+    font-size: 12px;
+}
+.inner-firstone-date, .inner-secondtone-date{
+    margin: 1px;
+    font-size: 10px;
+}
 .first-one-experience{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: solid 4px;
     border-radius: 10%;
@@ -650,7 +662,7 @@ caption.sr-only {
     background-color: rgba(0, 0, 255, 0.24);
 }
 .second-one-experience{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: solid 4px;
     border-radius: 10%;
@@ -658,7 +670,7 @@ caption.sr-only {
     background-color: rgb(136, 16, 16);
 }
 .third-one-experience{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: solid 4px;
     border-radius: 10%;
@@ -666,7 +678,7 @@ caption.sr-only {
     background-color: rgb(23, 110, 20);
 }
 .forth-one-experience{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: solid 4px;
     border-radius: 10%;
@@ -674,7 +686,7 @@ caption.sr-only {
     background-color: rgb(102, 23, 98);
 }
 .fifth-one-experience{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: solid 4px;
     border-radius: 10%;
