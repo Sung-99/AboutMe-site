@@ -24,7 +24,7 @@ h4{
 
 }
 /*Titles sections*/
-.titleaboutme, .titleExperience{
+.titleaboutme, .titleExperience, .project{
     color: #fff;
     text-align: center;
     margin: 15px;
@@ -284,9 +284,11 @@ aside p{
     flex-wrap: wrap;
     gap: 2rem;
     position: absolute;
+    width: 100%;
+    justify-content: space-around;
 }
 /*projects section */
-.bottom-Qualifivations a{
+.bottom-Qualifications a{
     display: inline-block;
   
 }
@@ -304,13 +306,36 @@ aside p{
 }
 .signs-afir{
     width: 250px;
-    height: 200px;
+    height: 50px;
     
 }
-.bottom-Qualifivations{
-    width: 255px;
-   height: 200px;
+.bottom-Qualifications{
+   height:100px;
+   background-color: black;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
    
+}
+.project1-bottom-qualif{
+    background-color: #108379;
+
+    border: solid 4px white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.project2-bottom-qualif{
+    background-color: #831010;
+
+    border: solid 4px white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    
 }
 
 /*--- */
