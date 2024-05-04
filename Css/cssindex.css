@@ -363,6 +363,11 @@ aside p{
     flex-direction: row-reverse;
 
 }
+.inner-detail-ele-text{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+}
 .container_aboutme{
     display: flex;
     gap: 10rem;
