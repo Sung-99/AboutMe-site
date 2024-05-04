@@ -442,12 +442,12 @@ aside p{
     
 }
 .bottom-Qualifications{
-   height:100px;
+    width: 99.5%;
    background-color: black;
-   width: 100%;
+ 
    display: flex;
    justify-content: space-evenly;
-   
+   border: solid 1px white;
 }
 .project1-bottom-qualif{
     background-color: #108379;
@@ -645,12 +645,6 @@ aside p{
 }
 
 /*bottom content end aboutme*/
-.calendar{
-    height:140px;
-
-    color: white;
-    background-color: black;
-}
 
 .gap1{
     margin-top: 165px;
@@ -717,12 +711,15 @@ tool-tip {
 }
 
 .calendar {
-    width: 100%;
+    width: 99.5%;
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
     text-align: center;
     margin: 0 auto;
+    height:140px;
+    color: white;
+    background-color: black;
 }
 
 
@@ -793,9 +790,10 @@ caption.sr-only {
 }
 .experiences-inner{
     display: flex;
-    width: 100%;
+    width: 99.5%;
     background-color: black;
     justify-content: space-evenly;
+    border: solid 1px white;
 }
 .experiences-inner p{
     padding:3px;
