@@ -47,26 +47,26 @@ h4{
     text-align: center;
     
 }
-
-.firs-title-learn, .third-title-ele{
+.firs-title-learn{
     color: #fff;
     margin: 1px;
-    top: 10px;
+    width: 80px;
     position: relative;
 }
-.third-title-ele{
-    left: 30px;
+ .third-title-ele{
+    color: #fff;
+    margin: 1px;
+    width:120px;
+    position: relative;
+}
 
-}
-.firs-title-learn{
-    width: 170px;
-}
+
 .titledev{
     color: #fff;
     text-align: center;
     height: 40px;
 }
-.second-title-ti, .Ingles-content, .second-title-office{
+.second-title-ti, .Ingles-content{
     color: #fff;
     text-align: center;
     width: 100px;
@@ -84,8 +84,8 @@ h4{
     top: 25px; 
 }
 .second-title-office{
-    top: 1px; 
-    width: 120px;
+    margin: 1px;
+    width: 200px;
 }
 .inner_title{
     color: #fff;
@@ -326,11 +326,34 @@ aside p{
     border-radius: 15px;
     text-align: center;
 }
-
+.inner-detail-info{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2.5rem;
+}
+.inner-detail-man-comp{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.inner-detail-man-comp-img{
+    display: flex;
+    height: 50px;
+}
+.inner-detail-man-comp-text{
+    display: flex;
+    align-items: center;
+}
+.inner-detail-ele{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
 .container_aboutme{
     display: flex;
     gap: 10rem;
     padding: 10px;
+    justify-content: space-around;
 }
 .bottom-aboutme{
     display: flex;
@@ -339,6 +362,25 @@ aside p{
     position: absolute;
     width: 100%;
     justify-content: space-around;
+}
+
+.comp-logo-most-left{
+    display: flex;
+    width: 50px;
+    align-items: center;
+}
+.comp-logo-left{
+    display: flex;
+    width: 100px;
+}
+.comp-logo-most-right{
+    display: flex;
+    width: 50px;
+    align-items: center;
+}
+.comp-logo-right{
+    display: flex;
+    width: 100px;
 }
 /*projects section */
 .bottom-Qualifications a{
@@ -392,7 +434,7 @@ aside p{
 }
 
 /*--- */
-.Logoaboutmescrew, .Logoaboutmedictionary, .Logoaboutpackt, .Logocurses {
+.Logoaboutmescrew, .Logoaboutmedictionary {
     position: relative;
     height: 20px;
     top: 1px;
@@ -404,53 +446,58 @@ aside p{
 
 }
 .Logoaboutmescrew{
-    top: -14px;
+    
+    height: 20px;
 }
 .Logoaboutpackt{
-    top: -14px;
-    left: 60px;
+  
+    height: 20px;
 }
 .Logocurses{
-    left: 10px;
+    
     height: 20px;
 }
 .Logoaboutele{
     position: relative;
     height: 20px;
-    top: -14px;
-    left: 60px;
+  
 }
 .Logoaboutmedictionary{
-    top: -14px;
+
+    height: 20px;
 }
 .Logoaboutme{
     position: relative;
     height: 20px;
-    top: 8px;
+   
    
 }
 
 .Logosignsafir{
     width: 50px;
     height: 50px;
-    top: 20px;
-    left: 10px;
+
+    position: relative;
+    
+}
+.Logosignsafir2{
+    width: 50px;
+    height: 50px;
+
     position: relative;
     
 }
 .Logosignsafirbottom1{
     width: 50px;
     height: 50px;
-    top: 90px;
-    left: 290px;
-    position: absolute;
+   
+    position: relative;
 }
 .Logosignsafirbottom2{
     width: 50px;
     height: 50px;
-    top: 90px;
-    left: 655px;
-    position: absolute;
+   
+    position: relative;
 }
 .Logosigncode, .Logosignbug{
     margin-top: 50px;
