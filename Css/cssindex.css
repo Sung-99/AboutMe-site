@@ -310,6 +310,17 @@ aside p{
     border-radius: 15px;
 
 }
+.inner-detail-text-func{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.inner-detail-text-func-text{
+    display: flex;
+}
+.inner-detail-text-func-img{
+    display: flex;
+   
+}
 
 .trr{
     height: 1px;
@@ -350,7 +361,7 @@ aside p{
 .inner-detail-ele{
     display: flex;
     flex-direction: row-reverse;
-    gap: 2rem;
+
 }
 .container_aboutme{
     display: flex;
@@ -455,24 +466,27 @@ aside p{
 .Logoaboutpackt{
     position: absolute;
     height: 20px;
+    padding-left: 5px;
+    padding-bottom:5px ;
 }
 .Logocurses{
     
     height: 20px;
 }
 .Logoaboutele{
-    position: relative;
+    
     height: 20px;
-  
+    padding: 5px;
+    
 }
 .Logoaboutmedictionary{
 
     height: 20px;
 }
 .Logoaboutme{
-    position: relative;
+    position: absolute;
     height: 20px;
-   
+    padding: 5px;
    
 }
 
