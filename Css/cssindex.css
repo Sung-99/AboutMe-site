@@ -24,10 +24,17 @@ h4{
 
 }
 /*Titles sections*/
-.titleaboutme, .titleExperience, .project{
+.titleaboutme, .project{
     color: #fff;
     text-align: center;
     margin: 15px;
+    top: 10px;
+    position: relative;
+}
+.titleExperience1{
+    color: #fff;
+    text-align: center;
+    margin-top: 180px;
     top: 10px;
     position: relative;
 }
@@ -463,9 +470,10 @@ aside p{
     cursor: default;
 }
 .foot{
+
     width: 100%;
     color: #fff;
-    margin: 0px;
+    
     position: relative;
     text-align: center;
 }
