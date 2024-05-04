@@ -378,12 +378,13 @@ aside p{
 .inner-detail-ele{
     display: flex;
     flex-direction: row-reverse;
-
+    
 }
 .inner-detail-ele-text{
     display: flex;
     flex-wrap:wrap;
     align-content: center;
+    padding-left: 15px;
 }
 .container_aboutme{
     display: flex;
