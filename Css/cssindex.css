@@ -330,19 +330,22 @@ aside p{
     display: flex;
     flex-direction: row-reverse;
     gap: 2.5rem;
+    padding: 5px;
 }
 .inner-detail-man-comp{
     display: flex;
     flex-direction: row-reverse;
-   
+
 }
 .inner-detail-man-comp-img{
     display: flex;
     height: 50px;
+   
 }
 .inner-detail-man-comp-text{
     display: flex;
     align-items: center;
+    
 }
 .inner-detail-ele{
     display: flex;
@@ -450,7 +453,7 @@ aside p{
     height: 20px;
 }
 .Logoaboutpackt{
-  
+    position: absolute;
     height: 20px;
 }
 .Logocurses{
