@@ -409,6 +409,7 @@ aside p{
 .comp-logo-left{
     display: flex;
     width: 100px;
+    justify-content: space-around;
 }
 .comp-logo-most-right{
     display: flex;
@@ -418,6 +419,7 @@ aside p{
 .comp-logo-right{
     display: flex;
     width: 100px;
+    justify-content: space-around;
 }
 /*projects section */
 .bottom-Qualifications a{
@@ -853,3 +855,23 @@ caption.sr-only {
     background-color: rgb(70, 109, 19);
 }
 /*--------------*/
+
+/*-------reso media 1000 width---------*/
+
+@media (max-width:950px){
+    
+    .bottom-aboutme {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;
+        justify-content: space-around;
+       
+    }
+    .comp-logo-right {
+        display: none;
+        }
+
+}
+
+/*-------------------------------------*/
