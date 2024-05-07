@@ -858,8 +858,10 @@ caption.sr-only {
 
 /*-------reso media 1000 width---------*/
 
-@media (max-width:950px){
-    
+@media  (max-width:950px){
+    .container_aboutme{
+        gap: 3rem;
+    }
     .bottom-aboutme {
         display: flex;
         flex-wrap: wrap;
@@ -868,10 +870,31 @@ caption.sr-only {
         justify-content: space-around;
        
     }
-    .comp-logo-right {
+    .comp-logo-right,  .comp-logo-left{
         display: none;
         }
 
 }
-
+@media  (max-width:700px){
+    .container_aboutme{
+        gap: 1rem;
+    }
+    .bottom-aboutme {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;
+        justify-content: space-around;
+       
+    }
+    .comp-logo-right,  .comp-logo-left,.comp-logo-most-right{
+        display: none;
+        }
+    .experiences-inner, .bottom-Qualifications, .calendar{
+        width: 102.5%;
+    }    
+    
+}
+/*-------------------------------------*/
+/*----------reso media 900 width-----------------*/
 /*-------------------------------------*/
