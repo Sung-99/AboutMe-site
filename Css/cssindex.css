@@ -875,6 +875,13 @@ caption.sr-only {
         }
 
 }
+@media  (max-width:800px){
+    .calendar, .GitHubStatus{
+        display: none;
+    }
+   
+}
+/*-------reso media 700 width---------*/
 @media  (max-width:700px){
     .container_aboutme{
         gap: 1rem;
@@ -892,8 +899,8 @@ caption.sr-only {
         }
     .experiences-inner, .bottom-Qualifications, .calendar{
         width: 102.5%;
-    }    
-    
+    }  
+   
 }
 /*-------------------------------------*/
 /*----------reso media 900 width-----------------*/
