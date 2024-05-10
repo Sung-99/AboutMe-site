@@ -403,7 +403,7 @@ aside p{
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 7.5rem;
     position: absolute;
     justify-content: space-around;
 }
@@ -865,17 +865,47 @@ caption.sr-only {
     background-color: rgb(70, 109, 19);
 }
 /*--------------*/
-
 /*-------reso media 1000 width---------*/
-@media (max-width:1025px){
+@media (max-width:1410px){
     .bottom-aboutme{
-        gap: 6.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        gap: 5.2rem;
+        justify-content: space-around;
+      
     }
     
 }
 /*-------reso media 950 width---------*/
+/*-------reso media 1000 width---------*/
+@media (max-width:1220px){
+    .bottom-aboutme{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        gap: 2.7rem;
+        justify-content: space-around;
+      
+    }
+    
+}
+/*-------reso media 1000 width---------*/
+@media (max-width:1020px){
+    .bottom-aboutme{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        gap: 2.0rem;
+        justify-content: space-around;
+      
+    }
+    
+}
+/*-----------------------------------*/
+/*-------reso media 950 width---------*/
 /*-------------------------------------*/
-@media  (max-width:950px){
+@media  (max-width:970px){
     .container_aboutme{
         gap: 3rem;
     }
