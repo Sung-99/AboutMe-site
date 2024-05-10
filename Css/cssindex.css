@@ -998,11 +998,40 @@ caption.sr-only {
 /*-------------------------------------*/
 
 /*----------reso media 550 width-----------------*/
-@media  (max-width:550px){
+@media  (max-width:580px){
 
-    
-    
-     
-   
+    .inner-detail-info {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+        padding: 4px;
+    }
+    .container_detailed, .container_detalide_text, .container_detalide_text-progress {
+        width: 160px;
+    }
+    .inner-detail-man-comp-text {
+        width: 150px;
+    }
+    .inner-detail-ele-text  {
+    padding: 0px;
+   }
+   aside p{
+    font-size: 12px;
+   }
+   .About_me_text {
+        width: 200px;
+        text-align: justify;
+    }
+    .signs-afir {
+        width: 150px;
+        height: 50px;
+    }
+    aside {
+        width: 230px;
+    }
+  
+    .gap1 {
+        margin-top: 220px;
+    }
 }
 /*-------------------------------------*/
