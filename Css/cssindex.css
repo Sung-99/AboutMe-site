@@ -920,6 +920,10 @@ caption.sr-only {
     .container_aboutme{
         gap: 0.1rem;
     }
+    .Experience_my, .About_my{
+        margin: 0px;
+        margin-top: 80px;
+    }
     .bottom-aboutme {
         display: flex;
         flex-wrap: wrap;
