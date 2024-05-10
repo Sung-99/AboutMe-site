@@ -865,7 +865,7 @@ caption.sr-only {
     background-color: rgb(70, 109, 19);
 }
 /*--------------*/
-/*-------reso media 1000 width---------*/
+/*-------reso media 1400 width---------*/
 @media (max-width:1410px){
     .bottom-aboutme{
         display: flex;
@@ -877,8 +877,8 @@ caption.sr-only {
     }
     
 }
-/*-------reso media 950 width---------*/
-/*-------reso media 1000 width---------*/
+/*-------------------------------*/
+/*-------reso media 1200 width---------*/
 @media (max-width:1220px){
     .bottom-aboutme{
         display: flex;
@@ -903,7 +903,7 @@ caption.sr-only {
     
 }
 /*-----------------------------------*/
-/*-------reso media 950 width---------*/
+/*-------reso media 970 width---------*/
 /*-------------------------------------*/
 @media  (max-width:970px){
     .container_aboutme{
@@ -923,7 +923,7 @@ caption.sr-only {
 
 }
 /*-------------------------------------*/
-/*-------reso media 800 width---------*/
+/*-------reso media 850 width---------*/
 @media  (max-width:850px){
     .ContributionCalendar-grid{
         border-spacing: 0px;
@@ -943,7 +943,7 @@ caption.sr-only {
 }
 /*-------------------------------------*/
 /*-------reso media 700 width---------*/
-@media  (max-width:700px){
+@media  (max-width:750px){
     .container_aboutme{
         gap: 0.7rem;
     }
@@ -1000,9 +1000,7 @@ caption.sr-only {
 /*----------reso media 550 width-----------------*/
 @media  (max-width:550px){
 
-    .experiences-inner, .bottom-Qualifications{
-        width: 109.5%;
-    }  
+    
     
      
    
