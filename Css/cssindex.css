@@ -392,6 +392,9 @@ aside p{
     padding: 10px;
     justify-content: space-around;
 }
+.block-bottom-aboutme{
+    display: block;
+}
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
@@ -648,6 +651,9 @@ aside p{
 
 /*bottom content end aboutme*/
 
+.block-calendar{
+    display: block;
+}
 .gap1{
     margin-top: 165px;
     
@@ -713,7 +719,7 @@ tool-tip {
 }
 
 .calendar {
-    width: 99.5%;
+   
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
@@ -907,7 +913,7 @@ caption.sr-only {
     .comp-logo-right,  .comp-logo-left,.comp-logo-most-right{
         display: none;
         }
-    .experiences-inner, .bottom-Qualifications,.calendar{
+    .experiences-inner, .bottom-Qualifications{
         width: 99.5%;
     }  
     
@@ -936,7 +942,7 @@ caption.sr-only {
     .comp-logo-right,  .comp-logo-left,.comp-logo-most-right, .comp-logo-most-left {
         display: none;
         }
-    .experiences-inner, .bottom-Qualifications,.calendar{
+    .experiences-inner, .bottom-Qualifications{
         width: 103.5%;
     }  
     
@@ -948,7 +954,7 @@ caption.sr-only {
 /*----------reso media 550 width-----------------*/
 @media  (max-width:550px){
 
-    .experiences-inner, .bottom-Qualifications,.calendar{
+    .experiences-inner, .bottom-Qualifications{
         width: 109.5%;
     }  
     
