@@ -106,8 +106,10 @@ h4{
 
 
 
-
-
+/*perfil section*/
+.block-about-my{
+    display: block;
+}
 
 
 
@@ -298,6 +300,9 @@ aside p{
 }
 
 /*about me div*/
+.block-container-aboutme{
+    display: block;
+}
 .container_detalide_text{
     display: flex;
     flex-wrap: wrap;
@@ -400,7 +405,6 @@ aside p{
     flex-wrap: wrap;
     gap: 2rem;
     position: absolute;
-    width: 100%;
     justify-content: space-around;
 }
 
@@ -872,7 +876,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        width: 100%;
+  
         justify-content: space-around;
        
     }
@@ -905,7 +909,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        width: 99.5%;
+
         justify-content: space-around;
        
     }
@@ -934,7 +938,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        width: 99.5%;
+
         justify-content: space-around;
        
     }
