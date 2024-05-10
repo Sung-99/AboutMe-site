@@ -403,7 +403,7 @@ aside p{
 .bottom-aboutme{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     position: absolute;
     justify-content: space-around;
 }
@@ -867,7 +867,14 @@ caption.sr-only {
 /*--------------*/
 
 /*-------reso media 1000 width---------*/
-
+@media (max-width:1025px){
+    .bottom-aboutme{
+        gap: 6.5rem;
+    }
+    
+}
+/*-------reso media 950 width---------*/
+/*-------------------------------------*/
 @media  (max-width:950px){
     .container_aboutme{
         gap: 3rem;
@@ -876,7 +883,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-  
+        gap: 5rem;
         justify-content: space-around;
        
     }
@@ -887,12 +894,17 @@ caption.sr-only {
 }
 /*-------------------------------------*/
 /*-------reso media 800 width---------*/
-@media  (max-width:800px){
+@media  (max-width:850px){
     .ContributionCalendar-grid{
         border-spacing: 0px;
         width: 90%;
     }
-    
+    .bottom-aboutme {
+
+        gap: 3rem;
+
+       
+    }
     table.ContributionCalendar-grid td{
         padding: 0px;
         
