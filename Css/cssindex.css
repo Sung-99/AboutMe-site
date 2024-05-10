@@ -875,6 +875,8 @@ caption.sr-only {
         }
 
 }
+/*-------------------------------------*/
+/*-------reso media 800 width---------*/
 @media  (max-width:800px){
     .ContributionCalendar-grid{
         border-spacing: 0px;
@@ -887,10 +889,11 @@ caption.sr-only {
     }
     
 }
+/*-------------------------------------*/
 /*-------reso media 700 width---------*/
 @media  (max-width:700px){
     .container_aboutme{
-        gap: 1rem;
+        gap: 0.7rem;
     }
     .bottom-aboutme {
         display: flex;
@@ -912,5 +915,40 @@ caption.sr-only {
    
 }
 /*-------------------------------------*/
-/*----------reso media 900 width-----------------*/
+/*-------reso media 640 width---------*/
+@media  (max-width:640px){
+    .container_aboutme{
+        gap: 0.1rem;
+    }
+    .bottom-aboutme {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 99.5%;
+        justify-content: space-around;
+       
+    }
+    
+    .comp-logo-right,  .comp-logo-left,.comp-logo-most-right, .comp-logo-most-left {
+        display: none;
+        }
+    .experiences-inner, .bottom-Qualifications,.calendar{
+        width: 103.5%;
+    }  
+    
+     
+   
+}
+/*-------------------------------------*/
+
+/*----------reso media 550 width-----------------*/
+@media  (max-width:550px){
+
+    .experiences-inner, .bottom-Qualifications,.calendar{
+        width: 109.5%;
+    }  
+    
+     
+   
+}
 /*-------------------------------------*/
