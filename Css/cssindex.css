@@ -896,13 +896,13 @@ caption.sr-only {
     
 }
 /*-------reso media 1000 width---------*/
-@media (max-width:1020px){
+@media (max-width:1025px){
     .bottom-aboutme{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        gap: 2.0rem;
         justify-content: space-around;
+        gap: 1.5rem;
       
     }
     
