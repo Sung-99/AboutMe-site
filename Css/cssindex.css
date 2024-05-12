@@ -450,6 +450,9 @@ aside p{
     height: 50px;
     
 }
+.block-bottom-qualifications{
+    display: block;
+}
 .bottom-Qualifications{
     width: 99.5%;
    background-color: black;
@@ -961,9 +964,7 @@ caption.sr-only {
     .comp-logo-right,  .comp-logo-left,.comp-logo-most-right{
         display: none;
         }
-    .experiences-inner, .bottom-Qualifications{
-        width: 99.5%;
-    }  
+   
     
      
    
@@ -990,10 +991,7 @@ caption.sr-only {
     .comp-logo-right,  .comp-logo-left,.comp-logo-most-right, .comp-logo-most-left {
         display: none;
         }
-     .bottom-Qualifications{
-        width: 103.5%;
-    }  
-    
+     
      
    
 }
