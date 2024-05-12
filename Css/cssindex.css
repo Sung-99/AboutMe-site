@@ -347,7 +347,7 @@ aside p{
 .trr{
     height: 1px;
     width: 100%;
-    border-bottom: solid;
+    border-bottom: solid 0.5px;
     border-color:white ;
 }
 .container_detailed, .container_detalide_text, .container_detalide_text-progress{
@@ -997,7 +997,7 @@ caption.sr-only {
 }
 /*-------------------------------------*/
 
-/*----------reso media 550 width-----------------*/
+/*----------reso media 580 width-----------------*/
 @media  (max-width:580px){
 
     .inner-detail-info {
@@ -1052,5 +1052,58 @@ caption.sr-only {
     .gap1 {
         margin-top: 220px;
     }
+}
+/*-------------------------------------*/
+
+
+/*----------reso media 550 width-----------------*/
+@media  (max-width:550px){
+    .block-calendar, .GitHubStatus{display: none; }
+    .container_aboutme {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .firs-title{
+         margin: 1px;
+         padding: 10px;
+        }
+    .inner_title {
+        width: 150px;
+        font-size: 12px;
+    }
+    .block-third-title{
+        display: inline-block;
+        width: 100%;
+    }
+    .third-title{
+        text-align: center; 
+        margin: 10px;
+    }
+    .container_detailed, .container_detalide_text, .container_detalide_text-progress {
+        width: 100%;
+        text-align: center;
+    }
+    .Detailed-dev-sub { width: 250px;}
+    .inner-detail-text-func {
+        
+        height: 40px;
+        justify-content: center;
+        width: 100%;
+    }
+    .Logoaboutme {padding: 0.5px;}
+    .inner-detail-text-TIsup{
+        height: 40px;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+    .inner-detail-text-TIsup-text{padding: 30px;}
+    .inner-detail-text-englis {
+        height: 40px;
+        justify-content: center;
+        width: 100%;
+       
+    }
+    .Ingles-content {height: 10px;}
 }
 /*-------------------------------------*/
