@@ -941,7 +941,7 @@ caption.sr-only {
        
     }
     table.ContributionCalendar-grid td{
-        padding: 0px;
+        padding: 1px;
         
     }
     
@@ -1016,20 +1016,39 @@ caption.sr-only {
     padding: 0px;
    }
    aside p{
-    font-size: 12px;
+    font-size: 15px;
    }
    .About_me_text {
         width: 200px;
         text-align: justify;
     }
     .signs-afir {
-        width: 150px;
+        width: 270px;
         height: 50px;
     }
-    aside {
-        width: 230px;
+    .bottom-Qualifications {
+ 
+
+        justify-content: flex-start;
+        gap: 0.5rem;
     }
-  
+
+    
+    aside {
+        width: 280px;
+    }
+     .project2-bottom-qualif{
+        width: 250px;
+    }
+    .project1-bottom-qualif{
+        width: 190px;
+    }
+    .project2-bottom-qualif{
+        padding-left: 15px;
+    }
+    .Projec2 {
+        margin-left: 1px;
+    }
     .gap1 {
         margin-top: 220px;
     }
