@@ -918,7 +918,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        gap: 5rem;
+        gap: 4rem;
         justify-content: space-around;
        
     }
