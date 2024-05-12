@@ -800,9 +800,11 @@ caption.sr-only {
     position: relative;
     text-decoration: underline;
 }
+.block-experience{
+    display: block;
+}
 .experiences-inner{
     display: flex;
-    width: 99.5%;
     background-color: black;
     justify-content: space-evenly;
     border: solid 1px white;
@@ -988,7 +990,7 @@ caption.sr-only {
     .comp-logo-right,  .comp-logo-left,.comp-logo-most-right, .comp-logo-most-left {
         display: none;
         }
-    .experiences-inner, .bottom-Qualifications{
+     .bottom-Qualifications{
         width: 103.5%;
     }  
     
