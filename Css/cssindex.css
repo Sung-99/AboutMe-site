@@ -980,7 +980,7 @@ caption.sr-only {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-
+        gap: 2.5rem;
         justify-content: space-around;
        
     }
