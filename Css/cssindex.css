@@ -1098,12 +1098,22 @@ caption.sr-only {
         padding: 0px;
     }
     .inner-detail-text-TIsup-text{padding: 30px;}
-    .inner-detail-text-englis {
+    .inner-detail-text-englis,.inner-detail-man-comp,.inner-detail-ele{
         height: 40px;
         justify-content: center;
         width: 100%;
        
     }
-    .Ingles-content {height: 10px;}
+    .inner-detail-info{
+        height: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+     .inner-detail-man-comp-text {
+        width: 200px;
+    }
+    .Logoaboutpackt {position: relative;}
+     
+    .Ingles-content, .firs-title-learn{height: 10px;}
 }
 /*-------------------------------------*/
