@@ -454,12 +454,12 @@ aside p{
     display: block;
 }
 .bottom-Qualifications{
-    width: 99.5%;
-   background-color: black;
+    width: 100%;
+
  
    display: flex;
    justify-content: space-evenly;
-   border: solid 1px white;
+ 
 }
 .project1-bottom-qualif{
     background-color: #108379;
@@ -808,14 +808,12 @@ caption.sr-only {
 }
 .experiences-inner{
     display: flex;
-    background-color: black;
     justify-content: space-evenly;
-    border: solid 1px white;
 }
 .experiences-inner p{
     padding:3px;
     font-weight:lighter;
-    font-variant: small-caps slashed-zero;
+    
 }
 .inner-firstone-title, .inner-secondtone-title{
     margin: 1px;
@@ -836,6 +834,7 @@ caption.sr-only {
     border-radius: 10%;
     border-color:white ;
     background-color: rgba(0, 0, 255, 0.24);
+  
 }
 .second-one-experience{
     width: 150px;
@@ -1115,5 +1114,6 @@ caption.sr-only {
     .Logoaboutpackt {position: relative;}
      
     .Ingles-content, .firs-title-learn{height: 10px;}
+    
 }
 /*-------------------------------------*/
