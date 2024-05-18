@@ -1117,3 +1117,45 @@ caption.sr-only {
     
 }
 /*-------------------------------------*/
+
+/*----------reso media 510 width-----------------*/
+@media  (max-width:510px){
+    .container_aboutme {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .bottom-aboutme{gap: 0.1rem;}
+}
+/*-------------------------------------*/
+
+/*----------reso media 470 width-----------------*/
+@media  (max-width:470px){
+    .About_me_text {
+        width: 200px;
+        text-align: justify;
+    }
+    .bottom-aboutme {
+        position: relative;
+        align-content: flex-start;
+        display: inline-flex;
+        height: 400px;
+       
+    }
+    .container_detailed, .container_detalide_text, .container_detalide_text-progress {width: 80%;}        
+    .container_aboutme{
+
+        display: inline-flex;
+    }
+    .titleaboutme{
+        margin: 1px;
+        display: inline-block;
+        text-align: center;
+    }
+    .logo-email-info-outer,.logo-wpp-info-outer, .logo-linkdln-info-outer{
+        display: inline-block;
+    }
+    .experience_mycls{margin-top: 500px;}    
+    aside {position: relative;display: inline-block;}
+    
+}
+/*-------------------------------------*/
