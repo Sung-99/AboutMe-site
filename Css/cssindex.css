@@ -300,6 +300,9 @@ aside p{
 }
 
 /*about me div*/
+.about_mycls{
+    display: block;
+}
 .block-container-aboutme{
     display: block;
 }
@@ -1141,11 +1144,7 @@ caption.sr-only {
         height: 400px;
        
     }
-    .container_detailed, .container_detalide_text, .container_detalide_text-progress {width: 80%;}        
-    .container_aboutme{
-
-        display: inline-flex;
-    }
+  
     .titleaboutme{
         margin: 1px;
         display: inline-block;
@@ -1154,6 +1153,13 @@ caption.sr-only {
     .logo-email-info-outer,.logo-wpp-info-outer, .logo-linkdln-info-outer{
         display: inline-block;
     }
+    .project2-bottom-qualif,.project1-bottom-qualif{
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+     
+        
     .experience_mycls{margin-top: 500px;}    
     aside {position: relative;display: inline-block;}
     
