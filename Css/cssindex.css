@@ -300,6 +300,10 @@ aside p{
 }
 
 /*about me div*/
+.block-aboutme-title{
+    display: block;
+    text-align: center;
+}
 .about_mycls{
     display: block;
 }
@@ -1150,17 +1154,15 @@ caption.sr-only {
         display: inline-block;
         text-align: center;
     }
-    .logo-email-info-outer,.logo-wpp-info-outer, .logo-linkdln-info-outer{
-        display: inline-block;
-    }
+    .logo-email-info-outer,.logo-wpp-info-outer, .logo-linkdln-info-outer{display: inline-block;}
     .project2-bottom-qualif,.project1-bottom-qualif{
         padding: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
-     
-        
-    .experience_mycls{margin-top: 500px;}    
+    .titleExperience1{margin-top: 100px;} 
+    .bottom-Qualifications{gap: 0px;}    
+   
     aside {position: relative;display: inline-block;}
     
 }
