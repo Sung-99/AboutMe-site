@@ -89,7 +89,7 @@ h4{
     color: #fff;
     text-align: center;
     font-size: 15px;
-    width: 170px;
+    width: 300px;
     margin: 7px;
     position: relative;
     top: 5px;
@@ -1074,10 +1074,7 @@ caption.sr-only {
          margin: 1px;
          padding: 10px;
         }
-    .inner_title {
-        width: 150px;
-        font-size: 12px;
-    }
+    .inner_title {font-size: 12px;}
     .block-third-title{
         display: inline-block;
         width: 100%;
@@ -1133,6 +1130,11 @@ caption.sr-only {
         flex-direction: column;
     }
     .bottom-aboutme{gap: 0.1rem;}
+    .CV-content h1 {font-size: 30px;}
+    .CV-content {
+        display: flex;
+        width: 100%;
+    }
 }
 /*-------------------------------------*/
 
