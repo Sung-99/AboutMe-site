@@ -1191,3 +1191,22 @@ caption.sr-only {
     .first-one-experience,.second-one-experience,.third-one-experience{height: 130px;}
 }
 /*-------------------------------------*/
+/*----------reso media 325 width-----------------*/
+@media  (max-width:325px){
+    .About_my{ margin-left: 50px;}
+    .Experience_my,.About_my{
+        margin-top: 50px;
+        width: 100px;
+        height: 20px;
+        font-size: 18px;
+     
+    }
+    .My-nam { font-size: 40px;}
+    .CV-content h1 {font-size: 30px;}
+    .CV-content {
+        display: flex;
+        width: 100%;
+    }
+    .CV-content button {width: 100px;}
+}
+/*-------------------------------------*/
