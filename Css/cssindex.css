@@ -886,7 +886,7 @@ caption.sr-only {
         justify-content: space-around;
       
     }
-    
+    .first-one-experience,.second-one-experience,.third-one-experience{height: 130px;}
 }
 /*-------------------------------*/
 /*-------reso media 1200 width---------*/
@@ -1188,6 +1188,6 @@ caption.sr-only {
     .project2-bottom-qualif, .project1-bottom-qualif {
        width: 98.5%;
     }
-
+    .first-one-experience,.second-one-experience,.third-one-experience{height: 130px;}
 }
 /*-------------------------------------*/
