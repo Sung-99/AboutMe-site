@@ -190,6 +190,7 @@ h4{
     font-variant: small-caps slashed-zero;
     font-size: 30px;
     border-radius: 20px;
+    z-index: 100;
 }
 
 
@@ -1160,9 +1161,9 @@ caption.sr-only {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .titleExperience1{margin-top: 100px;} 
+    .titleExperience1{margin-top: 50px;} 
     .bottom-Qualifications{gap: 0px;}    
-   
+    .gap1 {margin-top: 100px;}
     aside {position: relative;display: inline-block;}
     
 }
