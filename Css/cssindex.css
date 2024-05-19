@@ -1167,3 +1167,27 @@ caption.sr-only {
     
 }
 /*-------------------------------------*/
+
+/*----------reso media 415 width-----------------*/
+@media  (max-width:415px){
+    .About_my{ margin-left: 50px;}
+    .Experience_my,.About_my{
+        margin-top: 50px;
+        width: 120px;
+        height: 20px;
+        font-size: 20px;
+     
+    }
+    .My-nam { font-size: 50px;}
+    .CV-content h1 {font-size: 30px;}
+    .bottom-Qualifications{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .project2-bottom-qualif, .project1-bottom-qualif {
+       width: 98.5%;
+    }
+
+}
+/*-------------------------------------*/
